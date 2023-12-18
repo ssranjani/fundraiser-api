@@ -1,7 +1,6 @@
 package com.demo.fundraiser.controller;
 
 import com.demo.fundraiser.dto.FundDTO;
-import com.demo.fundraiser.model.Fund;
 import com.demo.fundraiser.service.FundService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

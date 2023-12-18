@@ -1,11 +1,8 @@
 package com.demo.fundraiser.model;
 
 import com.demo.fundraiser.dto.FundDTO;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import javax.annotation.processing.Generated;
 
 @Document("funds")
 public class Fund {
